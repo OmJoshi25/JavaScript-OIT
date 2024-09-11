@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.p30{
+    padding: 30px;
+}
+.bg-pri{
+    background-color: yellow;
+}
+.bg-sec{
+    background-color: violet;
+}
+.textBold{
+    font-weight: 800;
+}
+#box{
+    border: 10px solid black;
+    margin: 20px;
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+}

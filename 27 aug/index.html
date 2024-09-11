@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Heading 1</h2>
+    <p class="para">para 1</p>
+    <h2>Heading 2</h2>
+    <div class="para">para 2</div>
+    <h2>Heading 3</h2>
+    <p class="para">para 3</p>
+  </body>
+  <script>
+    let paras=document.getElementsByClassName("para") // Array which contain HTML element, index by index, is called as HTMLCollection
+    // paras[1].innerHTML="Para in div"
+    // for (let i = 0; i < paras.length; i++) {
+    //     paras[i].innerHTML=`This is para ${i+1} entered by js`
+    // }
+    let heads=document.getElementsByTagName("h2")
+    for (let i = 0; i < heads.length; i++) {
+        heads[i].innerHTML=`<i>This is heading ${i+1} entered by js</i>`
+    }
+  </script>
+</html>
